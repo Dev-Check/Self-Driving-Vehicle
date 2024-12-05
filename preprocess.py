@@ -22,7 +22,7 @@ def preprocess_image(image_path, target_size=(640, 480)):
     return image
 
 
-csv_file = r"C:\Users\dej72\OneDrive\Desktop\Projects\Project2\allimages\all\labled_updated.csv"  
+csv_file = r"yourfilehere.csv"  
 df = pd.read_csv(csv_file)
 
 
