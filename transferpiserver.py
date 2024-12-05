@@ -75,7 +75,7 @@ def brake():
 
 motor_init()
 
-server_ip = "192.168.1.160" 
+server_ip = "your IP here" 
 server_port = 12345
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((server_ip, server_port))
